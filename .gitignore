@@ -1,0 +1,15 @@
+*.log
+*.out
+.terraform/
+*.pem
+*terraform.lock.hcl
+ssh_keys.tpl
+# Local .terraform directories
+**/.terraform/*
+.terraform.*
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+.terragrunt-cache
+main-old.tf
+prod.tfvars
+provider.tf
